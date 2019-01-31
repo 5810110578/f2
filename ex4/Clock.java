@@ -7,13 +7,13 @@ public class Clock{
         m = min;
         state = 0;
     }
-    public void presstip(){
+    public void pressUp(){
         if(state == 1)
             h++;
         else if(state == 2)
             m++;
     }
-    public void pressclock(){
+    public void pressDown(){
         if(state ==1){
             h--;
         }

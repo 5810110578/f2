@@ -2,10 +2,10 @@ public class ClockTest{
     public static void main(String args[]){
         Clock c = new Clock(12,35);
         c.pressCenter(true);
-        c.presstip();
+        c.pressUp();
         c.pressCenter(false);
-        c.presstip(); c.presstip();
-        c.presstip(); c.presstip();
-        c.presstip(); c.pressCenter(true);
+        c.pressUp(); c.pressUp();
+        c.pressUp(); c.pressUp();
+        c.pressUp(); c.pressCenter(true);
     }
 }
